@@ -1,0 +1,22 @@
+{
+    "books":[
+        {
+            "id" : 1 ,
+            "name": "Harry Potter and the Order of the Phoenix",
+            "genre":"Fantasy",
+            "author" : "j.k Rulling",
+            "published" : "2004",
+            "image" :"https://images.moviesanywhere.com/e1752b37b6a6277dc16ed75b55b4883f/688a801d-4a1b-424e-b949-80253e07d0e2.jpg" ,
+            "description":"There is a door at the end of a silent corridor. And it’s haunting Harry Pottter’s dreams. Why else would he be waking in the middle of the night, screaming in terror?"
+        },
+        {
+            "id" : 2 ,
+            "name": "Fallen",
+            "genre": "Romance",
+            "author": "Mitra",
+            "published":"2009",
+            "image":"https://upload.wikimedia.org/wikipedia/en/3/3c/Fallen_cover.jpg",
+            "description":"There’s something achingly familiar about Daniel Grigori.Mysterious and aloof, he captures Luce Price’s attention from the moment she sees him on her first day at the Sword & Cross boarding school in sultry Savannah, Georgia..." 
+        }
+    ]
+}
