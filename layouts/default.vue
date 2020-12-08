@@ -7,7 +7,7 @@
 <script>
 import AppHeader from '@/components/AppHeader.vue'
 export default {
-  components:{
+  components:{    
     AppHeader
   }
 }
@@ -31,6 +31,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+
 }
 
 *,

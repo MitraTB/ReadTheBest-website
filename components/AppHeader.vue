@@ -15,10 +15,10 @@
         <template #button-content> 
             Categories
         </template>
-        <b-dropdown-item href="#">Sience fiction</b-dropdown-item>
-        <b-dropdown-item href="#">Historical</b-dropdown-item>
-        <b-dropdown-item href="#">Novel</b-dropdown-item>
-        <b-dropdown-item href="#">psychological</b-dropdown-item>
+        <b-dropdown-item href="/scienceFiction">Sience fiction</b-dropdown-item>
+        <b-dropdown-item href="/historical">Historical</b-dropdown-item>
+        <b-dropdown-item href="/romance">Romance</b-dropdown-item>
+        <b-dropdown-item href="/psychological">Psychological</b-dropdown-item>
         </b-nav-item-dropdown>
       </b-navbar-nav>
       
@@ -30,8 +30,8 @@
           <b-button size="sm" class="my-2 my-sm-0" variant="primary" type="submit"><i class="fas fa-search">Search</i></b-button>
         </b-nav-form>
 
-        <b-nav-item href="#">Sign In</b-nav-item>
-        <b-nav-item href="#">Sign Out</b-nav-item>
+        <b-nav-item href="/user/sign_in">Sign In</b-nav-item>
+        <b-nav-item href="/user/sign_up">Sign Out</b-nav-item>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>

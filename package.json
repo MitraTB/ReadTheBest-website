@@ -15,7 +15,10 @@
     "bootstrap-vue": "^2.19.0",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.6",
-    "nuxt-fontawesome": "^0.4.0"
+    "nuxt-fontawesome": "^0.4.0",
+    "vee-validate": "^3.4.5"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2"
+  }
 }

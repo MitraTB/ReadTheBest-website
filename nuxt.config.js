@@ -30,7 +30,7 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
-  buildModules: ['nuxt-fontawesome'
+  buildModules: ['nuxt-fontawesome', '@nuxtjs/vuetify'
   ],
   fontawesome : {
     component : 'fas',
@@ -47,7 +47,9 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-  }
+  },
+  
+  
 }
 
   
