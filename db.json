@@ -1,75 +1,96 @@
 {
-    "books":[
-        {
-            "id" : 1 ,
-            "name": "Harry Potter and the Order of the Phoenix",
-            "genre":"Sience Fiction",
-            "author" : "j.k Rulling",
-            "published" : "2004",
-            "image" :"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546910265l/2.jpg" ,
-            "description":"There is a door at the end of a silent corridor. And it’s haunting Harry Pottter’s dreams. Why else would he be waking in the middle of the night, screaming in terror?"
-        },
-        {
-            "id" : 2 ,
-            "name": "Fallen",
-            "genre": "Romance",
-            "author": "Lauren Kate",
-            "published":"2009",
-            "image":"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440619649l/6487308._SY475_.jpg",
-            "description":"There’s something achingly familiar about Daniel Grigori.Mysterious and aloof, he captures Luce Price’s attention from the moment she sees him on her first day at the Sword & Cross boarding school in sultry Savannah, Georgia..." 
-        },
-        {
-            "id" : 3 ,
-            "name": "The Office of Historical Corrections",
-            "genre": "History",
-            "author": "Danielle Evans",
-            "published":"2020",
-            "image":"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586815315l/51777605.jpg",
-            "description":"Danielle Evans is widely acclaimed for her blisteringly smart voice and x-ray insights into complex human relationships."
-        },
-        {
-            "id": 4 ,
-            "name" : "Harrow the Ninth",
-            "genre" : "Sience Fiction",
-            "author" : "Tamsyn Muir",
-            "published" : "2020" , 
-            "image" : "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1602323622l/39325105._SY475_.jpg",
-            "description" : "Harrow the Ninth, the sequel to Gideon the Ninth, turns a galaxy inside out as one necromancer struggles to survive the wreckage of herself aboard the Emperor's haunted space station."
-         },
-         {
-            "id" : 5 , 
-            "name" : "The Silent Patient",
-            "genre": "psychology",
-            "author" : "Alex Michaelides",
-            "published": "2019",
-            "image" : "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1582759969l/40097951._SX318_.jpg",
-            "description" : "The Silent Patient is a shocking psychological thriller of a woman’s act of violence against her husband—and of the therapist obsessed with uncovering her motive."
-         },
-         {
-             "id": 6,
-             "name":"A Promised Land",
-             "genre" : "History",
-             "author" : "Barack Obama",
-             "published" : "2020",
-             "image" : "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600357110l/55361205._SY475_.jpg",
-             "description" : "A riveting, deeply personal account of history in the making—from the president who inspired us to believe in the power of democracy."
-         },{
-             "id": 7,
-             "name": "Lincoln’s Lie: A True Civil War Caper Through Fake News, Wall Street, and the White House",
-             "genre" : "History" , 
-             "author" : "Elizabeth Mitchell",
-             "published" : "2020",
-             "image" : "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586707873l/53144171.jpg",
-             "description" : "A thrilling dive into the little-known, darker side of a revered president’s history, Lincoln’s Lie untangles the threads behind a mysterious 1864 newspaper article to reveal how Lincoln manipulated the media during the Civil War, shining new light onto today’s issues of fake news and presidential conflict with the press."
-         },{
-            "id" : 8 ,
-            "name": "What Would Frida Do?",
-            "genre":"psychology",
-            "author" : " Arianna Davis",
-            "published" : "2020",
-            "image" :"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1585174168l/52041421.jpg" ,
-            "description":"A contemporary guide to life, love, and happiness inspired by the extraordinary artist Frida Kahlo"
-         }
-         
-    ]
+  "books": [
+    {
+      "id": 1,
+      "name": "Harry Potter and the Order of the Phoenix",
+      "genre": "Sience Fiction",
+      "author": "j.k Rulling",
+      "published": "2004",
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546910265l/2.jpg",
+      "description": "There is a door at the end of a silent corridor. And it’s haunting Harry Pottter’s dreams. Why else would he be waking in the middle of the night, screaming in terror?"
+    },
+    {
+      "id": 2,
+      "name": "Fallen",
+      "genre": "Romance",
+      "author": "Lauren Kate",
+      "published": "2009",
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440619649l/6487308._SY475_.jpg",
+      "description": "There’s something achingly familiar about Daniel Grigori.Mysterious and aloof, he captures Luce Price’s attention from the moment she sees him on her first day at the Sword & Cross boarding school in sultry Savannah, Georgia..."
+    },
+    {
+      "id": 3,
+      "name": "The Office of Historical Corrections",
+      "genre": "History",
+      "author": "Danielle Evans",
+      "published": "2020",
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586815315l/51777605.jpg",
+      "description": "Danielle Evans is widely acclaimed for her blisteringly smart voice and x-ray insights into complex human relationships."
+    },
+    {
+      "id": 4,
+      "name": "Harrow the Ninth",
+      "genre": "Sience Fiction",
+      "author": "Tamsyn Muir",
+      "published": "2020",
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1602323622l/39325105._SY475_.jpg",
+      "description": "Harrow the Ninth, the sequel to Gideon the Ninth, turns a galaxy inside out as one necromancer struggles to survive the wreckage of herself aboard the Emperor's haunted space station."
+    },
+    {
+      "id": 5,
+      "name": "The Silent Patient",
+      "genre": "psychology",
+      "author": "Alex Michaelides",
+      "published": "2019",
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1582759969l/40097951._SX318_.jpg",
+      "description": "The Silent Patient is a shocking psychological thriller of a woman’s act of violence against her husband—and of the therapist obsessed with uncovering her motive."
+    },
+    {
+      "id": 6,
+      "name": "A Promised Land",
+      "genre": "History",
+      "author": "Barack Obama",
+      "published": "2020",
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600357110l/55361205._SY475_.jpg",
+      "description": "A riveting, deeply personal account of history in the making—from the president who inspired us to believe in the power of democracy."
+    },
+    {
+      "id": 7,
+      "name": "Lincoln’s Lie: A True Civil War Caper Through Fake News, Wall Street, and the White House",
+      "genre": "History",
+      "author": "Elizabeth Mitchell",
+      "published": "2020",
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586707873l/53144171.jpg",
+      "description": "A thrilling dive into the little-known, darker side of a revered president’s history, Lincoln’s Lie untangles the threads behind a mysterious 1864 newspaper article to reveal how Lincoln manipulated the media during the Civil War, shining new light onto today’s issues of fake news and presidential conflict with the press."
+    },
+    {
+      "id": 8,
+      "name": "What Would Frida Do?",
+      "genre": "psychology",
+      "author": " Arianna Davis",
+      "published": "2020",
+      "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1585174168l/52041421.jpg",
+      "description": "A contemporary guide to life, love, and happiness inspired by the extraordinary artist Frida Kahlo"
+    }
+  ],
+  "users": [
+    {
+      "name": "Ali",
+      "password": "13661367",
+      "email": "shahverdian@chargoon.com",
+      "id": 1
+    },
+    {
+      "name": "Mitra",
+      "password": "M13661367t",
+      "email": "Mitra.tabatabaei.asl@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "Radin",
+      "password": "R1393S",
+      "email": "radin.shahverdian@gmail.com",
+      "id": 3
+    }
+  ]
 }
