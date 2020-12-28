@@ -30,7 +30,9 @@
           <b-button size="sm" class="my-2 my-sm-0" variant="primary" type="submit"><i class="fas fa-search">Search</i></b-button>
         </b-nav-form>
 
-        <b-nav-item href="/user/sign_in">Sign In</b-nav-item>
+        <b-nav-item v-if="$auth.loggedIn">{{$auth.user.email}}</b-nav-item>
+        <b-nav-item v-else href="/user/sign_in">Sign In</b-nav-item>
+
         <b-nav-item href="/user/sign_up">Sign Out</b-nav-item>
       </b-navbar-nav>
     </b-collapse>

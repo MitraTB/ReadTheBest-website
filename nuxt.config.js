@@ -41,15 +41,28 @@ export default {
   },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: ['bootstrap-vue/nuxt', 
+  modules: ['bootstrap-vue/nuxt', '@nuxtjs/axios',
+  '@nuxtjs/auth-next', '@nuxtjs/auth'
   ],
  
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
   },
-  
+  axios:{
+    baseURL:'http://localhost:3000'
+  },
+  auth: {
+    strategies: {
+      local: {
+        endpoints: {
+          login: { url: '/users', method: 'post', propertyName:'data.token'},
+          logout: false,
+          user: { url: '/users', method: 'get' , propertyName:'data.attributes'}
+        }
+      }
+    }
+  }
   
 }
 
-  

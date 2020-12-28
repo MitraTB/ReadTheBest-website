@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <b-row class="justify-content-center">
-        <SignIn />
+        <SignIn :signIn="signIn" />
         </b-row>
     </div>
 </template>
@@ -11,7 +11,7 @@ export default {
     components:{
         SignIn
     }
-}
+   }
 </script>
 <style scoped>
 .container{
